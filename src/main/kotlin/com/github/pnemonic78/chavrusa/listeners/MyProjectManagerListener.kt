@@ -1,8 +1,8 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.pnemonic78.chavrusa.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.pnemonic78.chavrusa.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
